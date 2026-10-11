@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T20:40:00+01:00",
+  "updated_at": "2026-10-11T20:45:00+01:00",
   "events": [
     {
       "title": "Not as Sweet as You Think",
@@ -126,11 +126,13 @@
       "schedule_uncertain": false,
       "description": "Surrealist fashion and artistic collaborations, from Elsa Schiaparelli to today.",
       "url": "https://www.vam.ac.uk/exhibitions/schiaparelli/",
-      "image_url": null,
+      "image_url": "https://assets-cdn.vam.ac.uk/2025/07/03/11/54/11/1034da80-81d2-4248-be15-5b08ff8bf928/320.jpg",
       "score": 80,
       "price": "Weekday £28",
       "source_checked_at": "2026-10-11",
-      "source_type": "official_venue_site"
+      "source_type": "official_venue_site",
+      "image_credit": "© Victoria and Albert Museum",
+      "image_alt": "Black Schiaparelli garment with pink flowers"
     },
     {
       "title": "Inside Aardman: Wallace & Gromit and Friends",
@@ -145,11 +147,13 @@
       "schedule_uncertain": false,
       "description": "Hands-on animation exhibition with Wallace & Gromit, Shaun the Sheep and Morph.",
       "url": "https://www.vam.ac.uk/exhibitions/inside-aardman-wallace-gromit-and-friends",
-      "image_url": null,
+      "image_url": "https://assets-cdn.vam.ac.uk/2026/02/19/15/08/26/14060cee-c867-483c-8432-da5bf8b777e2/320.jpg",
       "score": 86,
       "price": "£12.50",
       "source_checked_at": "2026-10-11",
-      "source_type": "official_venue_site"
+      "source_type": "official_venue_site",
+      "image_credit": "© Aardman Animations Ltd. · Young V&A",
+      "image_alt": "Gromit on a bright pink exhibition image"
     },
     {
       "title": "Frieze Sculpture 2026",
