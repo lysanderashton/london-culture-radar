@@ -1,0 +1,39 @@
+name: Test dashboard and collectors
+on:
+  push:
+    branches: [main, 'feature/**']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Python syntax
+        run: python -m compileall -q collect.py test_collect.py
+      - name: Collector unit tests
+        run: python -m unittest -v test_collect
+      - name: JavaScript syntax
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from html.parser import HTMLParser
+          class Scripts(HTMLParser):
+              def __init__(self): super().__init__(); self.reading=False; self.js=''
+              def handle_starttag(self, tag, attrs):
+                  if tag=='script' and not dict(attrs).get('src'): self.reading=True
+              def handle_endtag(self, tag):
+                  if tag=='script': self.reading=False
+              def handle_data(self, data):
+                  if self.reading: self.js+=data
+          parser=Scripts(); parser.feed(Path('index.html').read_text())
+          Path('/tmp/radar.js').write_text(parser.js)
+          PY
+          node --check /tmp/radar.js
