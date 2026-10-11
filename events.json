@@ -1,1 +1,40 @@
-{"updated_at":"Not yet run","events":[]}
+{
+  "updated_at": "2026-10-11T20:00:00+01:00",
+  "events": [
+    {
+      "title": "Not as Sweet as You Think",
+      "venue": "London Museum Docklands",
+      "category": "art",
+      "family_friendly": false,
+      "start_date": "2026-10-11",
+      "end_date": "2026-10-15",
+      "opening_hours": "10am–5pm daily",
+      "verified_time": true,
+      "description": "A free display re-examining London's sugar trade through new perspectives.",
+      "url": "https://www.londonmuseum.org.uk/whats-on/not-sweet-you-think/",
+      "image_url": null,
+      "score": 61,
+      "source_checked_at": "2026-10-11",
+      "source_type": "official_event_page"
+    },
+    {
+      "title": "In & around Smithfield Market — guided walk",
+      "venue": "London Museum (Smithfield area)",
+      "category": "art",
+      "family_friendly": false,
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-12",
+      "opening_hours": "3pm–4.30pm (Monday 12 October)",
+      "verified_time": true,
+      "description": "Guided walk through Smithfield's medieval and Tudor history. Advance booking required; from £14.",
+      "url": "https://www.londonmuseum.org.uk/whats-on/in-around-smithfield-market/",
+      "image_url": null,
+      "score": 57,
+      "source_checked_at": "2026-10-11",
+      "source_type": "official_event_page"
+    }
+  ],
+  "source_errors": [],
+  "sources_checked": 2,
+  "notice": "Two individually verified initial London Museum events; daily discovery is not yet reliable. Reconfirm details before travelling."
+}
