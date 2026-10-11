@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T20:00:00+01:00",
+  "updated_at": "2026-10-11T20:20:00+01:00",
   "events": [
     {
       "title": "Not as Sweet as You Think",
@@ -12,29 +12,71 @@
       "verified_time": true,
       "description": "A free display re-examining London's sugar trade through new perspectives.",
       "url": "https://www.londonmuseum.org.uk/whats-on/not-sweet-you-think/",
-      "image_url": null,
+      "image_url": "https://media.londonmuseum.org.uk/images/Not-as-Sweet-as-you.c0236483.fill-1638x1024.format-webp.webp",
       "score": 61,
       "source_checked_at": "2026-10-11",
-      "source_type": "official_event_page"
+      "source_type": "official_event_page",
+      "image_alt": "Official London Museum photograph of the Not as Sweet as You Think gallery",
+      "image_credit": "© London Museum · John Chase",
+      "price": "Free",
+      "age_range": null,
+      "schedule_uncertain": false
     },
     {
-      "title": "In & around Smithfield Market — guided walk",
-      "venue": "London Museum (Smithfield area)",
+      "title": "Second World War family walk",
+      "venue": "London Museum · London-wide",
+      "category": "family",
+      "family_friendly": true,
+      "age_range": "Family",
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-30",
+      "opening_hours": "Specific walk dates/times: check venue",
+      "verified_time": false,
+      "schedule_uncertain": true,
+      "description": "Discover wartime traces across London on a family walk. Individual walk sessions require checking.",
+      "url": "https://www.londonmuseum.org.uk/whats-on/",
+      "image_url": null,
+      "score": 67,
+      "source_type": "official_listing",
+      "source_checked_at": "2026-10-11"
+    },
+    {
+      "title": "Great Fire of London family walk",
+      "venue": "London Museum · London-wide",
+      "category": "family",
+      "family_friendly": true,
+      "age_range": "Family",
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-31",
+      "opening_hours": "Specific walk dates/times: check venue",
+      "verified_time": false,
+      "schedule_uncertain": true,
+      "description": "Explore the Great Fire of 1666 on a guided family walk; confirm individual sessions.",
+      "url": "https://www.londonmuseum.org.uk/whats-on/",
+      "image_url": null,
+      "score": 68,
+      "source_type": "official_listing",
+      "source_checked_at": "2026-10-11"
+    },
+    {
+      "title": "Roman fort gate tours",
+      "venue": "London Museum · City of London",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-10-12",
-      "end_date": "2026-10-12",
-      "opening_hours": "3pm–4.30pm (Monday 12 October)",
-      "verified_time": true,
-      "description": "Guided walk through Smithfield's medieval and Tudor history. Advance booking required; from £14.",
-      "url": "https://www.londonmuseum.org.uk/whats-on/in-around-smithfield-market/",
+      "start_date": "2026-10-11",
+      "end_date": "2026-10-22",
+      "opening_hours": "Individual tour sessions: check official page",
+      "verified_time": false,
+      "schedule_uncertain": true,
+      "description": "Explore the remains of London's Roman military fort beneath the city. Specific tour sessions need checking.",
+      "url": "https://www.londonmuseum.org.uk/whats-on/roman-fort-gate-tours/",
       "image_url": null,
-      "score": 57,
-      "source_checked_at": "2026-10-11",
-      "source_type": "official_event_page"
+      "score": 63,
+      "source_type": "official_listing",
+      "source_checked_at": "2026-10-11"
     }
   ],
   "source_errors": [],
   "sources_checked": 2,
-  "notice": "Two individually verified initial London Museum events; daily discovery is not yet reliable. Reconfirm details before travelling."
+  "notice": "Early pilot: limited London Museum events only. Series dates do not prove a session runs on every day; check official links. Automated discovery across all London institutions is not yet reliable."
 }
