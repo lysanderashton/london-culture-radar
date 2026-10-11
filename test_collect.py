@@ -18,6 +18,10 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(results[0]["title"], "Test Exhibition")
         self.assertFalse(results[0]["verified_time"])
 
+    def test_rss_only_accepts_allowlisted_venue_urls(self):
+        feed = b"""<rss><channel><item><link>https://www.tate.org.uk/whats-on/test</link></item><item><link>https://invalid.example.com/another</link></item></channel></rss>"""
+        self.assertEqual(collect.feed_candidates(feed), [("Tate", "https://www.tate.org.uk/whats-on/test")])
+
     def test_missing_event_dates_are_excluded(self):
         result = collect.parse_event(
             {"@type": "Event", "name": "Undated", "url": "https://example.org/a"},
@@ -30,7 +34,7 @@ class CollectorTests(unittest.TestCase):
             prior = '{"updated_at":"previous", "events":[]}'
             dataset.write_text(prior)
             with patch.object(collect, "ROOT", Path(folder)):
-                with patch.object(collect, "SOURCES", [("Blocked", "https://example.org")]):
+                with patch.object(collect, "SOURCES", [("Blocked", "https://example.org")]), patch.object(collect, "DISCOVERY_FEEDS", []):
                     with patch("collect.urllib.request.urlopen", side_effect=OSError("403 blocked")):
                         with self.assertRaises(SystemExit):
                             collect.main()

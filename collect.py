@@ -9,6 +9,8 @@ import json
 import re
 import urllib.error
 import urllib.request
+import urllib.parse
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -27,6 +29,15 @@ SOURCES = [
     ("Whitechapel Gallery", "https://www.whitechapelgallery.org/exhibitions/"),
     ("Sadler's Wells", "https://www.sadlerswells.com/whats-on/"),
 ]
+DISCOVERY_FEEDS = [
+    "https://www.culturerss.org/london/barbican_events.xml",
+    "https://www.culturerss.org/london/design_museum.xml",
+    "https://www.culturerss.org/london/natural_history_museum.xml",
+    "https://www.culturerss.org/london/tate_modern.xml",
+    "https://www.culturerss.org/london/va_museum.xml",
+    "https://www.culturerss.org/london/whitechapel_gallery.xml",
+]
+VENUE_HOSTS = {"www.barbican.org.uk": "Barbican", "designmuseum.org": "Design Museum", "www.designmuseum.org": "Design Museum", "www.nhm.ac.uk": "Natural History Museum", "www.tate.org.uk": "Tate", "www.vam.ac.uk": "V&A", "www.whitechapelgallery.org": "Whitechapel Gallery"}
 EVENT_TYPES = {
     "Event", "ExhibitionEvent", "TheaterEvent", "MusicEvent",
     "DanceEvent", "ChildrensEvent", "VisualArtsEvent",
@@ -105,6 +116,24 @@ def extract_html_events(page, venue, today, cutoff):
     return events
 
 
+def feed_candidates(xml_bytes):
+    # RSS is discovery only: published dates are NOT event dates.
+    root = ET.fromstring(xml_bytes)
+    found = []
+    for item in root.findall(".//item"):
+        link = (item.findtext("link") or "").strip()
+        parsed = urllib.parse.urlsplit(link)
+        if parsed.scheme == "https" and parsed.hostname in VENUE_HOSTS:
+            found.append((VENUE_HOSTS[parsed.hostname], link))
+    return found[:12]
+
+
+def load_url(url):
+    request = urllib.request.Request(url, headers={"User-Agent": "LondonCultureRadar/0.3 (personal event indexing)"})
+    with urllib.request.urlopen(request, timeout=12) as response:
+        return response.read(2_000_000)
+
+
 def main():
     now = datetime.datetime.now(ZoneInfo("Europe/London"))
     today = now.date().isoformat()
@@ -123,6 +152,25 @@ def main():
             records.extend(extract_html_events(page, venue, today, cutoff))
         except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError) as error:
             failures.append(f"{venue}: {type(error).__name__}: {error}")
+    # Third-party RSS lists can be stale. Fetch official pages and only
+    # publish source-confirmed JSON-LD events with explicit event dates.
+    candidates = []
+    for feed_url in DISCOVERY_FEEDS:
+        try:
+            candidates.extend(feed_candidates(load_url(feed_url)))
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError, ET.ParseError) as error:
+            failures.append(f"RSS {feed_url}: {type(error).__name__}: {error}")
+    visited = set()
+    for venue, url in candidates:
+        if url in visited:
+            continue
+        visited.add(url)
+        if len(visited) > 48:
+            break
+        try:
+            records.extend(extract_html_events(load_url(url).decode("utf-8", "replace"), venue, today, cutoff))
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError) as error:
+            failures.append(f"Official event {venue}: {type(error).__name__}: {error}")
     by_key = {}
     for record in records:
         key = (record["venue"].casefold(), record["title"].casefold(), record["start_date"])
@@ -158,7 +206,7 @@ def main():
         "updated_at": now.isoformat(timespec="minutes"),
         "events": list(by_key.values()),
         "source_errors": failures,
-        "sources_checked": len(SOURCES),
+        "sources_checked": len(SOURCES) + len(visited),
     }
     prior_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Saved {len(by_key)} sourced events; {len(failures)} source errors")
