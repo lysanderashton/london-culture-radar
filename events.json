@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T20:45:00+01:00",
+  "updated_at": "2026-10-11T20:50:00+01:00",
   "events": [
     {
       "title": "Not as Sweet as You Think",
@@ -107,11 +107,13 @@
       "schedule_uncertain": false,
       "description": "An exhibition exploring Ana Mendieta's influential work.",
       "url": "https://shop.tate.org.uk/exhibitions/now-booking",
-      "image_url": null,
+      "image_url": "https://media.timeout.com/images/106428890/750/422/image.jpg",
       "score": 84,
       "price": "Check tickets",
       "source_checked_at": "2026-10-11",
-      "source_type": "official_venue_site"
+      "source_type": "official_venue_site",
+      "image_alt": "Installation of Ana Mendieta photographs at Tate Modern",
+      "image_credit": "Photo: Time Out"
     },
     {
       "title": "Schiaparelli: Fashion Becomes Art",
@@ -168,11 +170,13 @@
       "schedule_uncertain": false,
       "description": "Free outdoor sculpture by contemporary international artists in Regent's Park.",
       "url": "https://www.frieze.com/fairs/frieze-london",
-      "image_url": null,
+      "image_url": "https://media.timeout.com/images/106448672/1536/864/image.jpg",
       "score": 77,
       "price": "Free",
       "source_checked_at": "2026-10-11",
-      "source_type": "official_venue_site"
+      "source_type": "official_venue_site",
+      "image_alt": "Wyrm, an outdoor sculpture by Catriona Robertson at Frieze Sculpture 2026",
+      "image_credit": "Photo: Time Out"
     },
     {
       "title": "Frieze London 2026",
