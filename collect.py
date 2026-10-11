@@ -1,75 +1,168 @@
-"""Conservative JSON-LD event collector for official cultural venue pages."""
-import json, re, html, datetime, urllib.request
+"""Conservative source checker for London Culture Radar.
+
+Only publishes official event records with explicit dates. No generic venue
+listing is treated as an event. Unavailable sources are reported, not bypassed.
+"""
+import datetime
+import html
+import json
+import re
+import urllib.error
+import urllib.request
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-ROOT=Path(__file__).parent
-SOURCES=[
- ('Barbican','https://www.barbican.org.uk/whats-on'),
- ('Southbank Centre','https://www.southbankcentre.co.uk/whats-on'),
- ('V&A','https://www.vam.ac.uk/whatson'),
- ('National Theatre','https://www.nationaltheatre.org.uk/whats-on/'),
- ('Young Vic','https://www.youngvic.org/whats-on'),
- ('Tate','https://www.tate.org.uk/whats-on'),
- ('Royal Academy','https://www.royalacademy.org.uk/exhibitions-and-events'),
- ('Science Museum','https://www.sciencemuseum.org.uk/see-and-do'),
- ('Natural History Museum','https://www.nhm.ac.uk/visit/exhibitions.html'),
- ('British Museum','https://www.britishmuseum.org/exhibitions-events'),
- ('Whitechapel Gallery','https://www.whitechapelgallery.org/exhibitions/'),
- ('Sadlers Wells','https://www.sadlerswells.com/whats-on/'),
+ROOT = Path(__file__).resolve().parent
+SOURCES = [
+    ("Barbican", "https://www.barbican.org.uk/whats-on"),
+    ("Southbank Centre", "https://www.southbankcentre.co.uk/whats-on"),
+    ("V&A", "https://www.vam.ac.uk/whatson"),
+    ("National Theatre", "https://www.nationaltheatre.org.uk/whats-on/"),
+    ("Young Vic", "https://www.youngvic.org/whats-on"),
+    ("Tate", "https://www.tate.org.uk/whats-on"),
+    ("Royal Academy", "https://www.royalacademy.org.uk/exhibitions-and-events"),
+    ("Science Museum", "https://www.sciencemuseum.org.uk/see-and-do"),
+    ("Natural History Museum", "https://www.nhm.ac.uk/visit/exhibitions.html"),
+    ("British Museum", "https://www.britishmuseum.org/exhibitions-events"),
+    ("Whitechapel Gallery", "https://www.whitechapelgallery.org/exhibitions/"),
+    ("Sadler's Wells", "https://www.sadlerswells.com/whats-on/"),
 ]
-KEYWORDS=('immersive','installation','contemporary','modern art','theatre','opera','ballet','classical','family','children','exhibition','performance','digital art')
-def extract_objects(v):
- if isinstance(v,list):
-  for x in v: yield from extract_objects(x)
- elif isinstance(v,dict):
-  if '@graph' in v: yield from extract_objects(v['@graph'])
-  typ=v.get('@type',[]); typ=[typ] if isinstance(typ,str) else typ
-  if any(t in ('Event','ExhibitionEvent','TheaterEvent','MusicEvent','DanceEvent','ChildrensEvent','VisualArtsEvent') for t in typ): yield v
+EVENT_TYPES = {
+    "Event", "ExhibitionEvent", "TheaterEvent", "MusicEvent",
+    "DanceEvent", "ChildrensEvent", "VisualArtsEvent",
+}
+WORDS = ("immersive", "installation", "contemporary", "modern art",
+         "theatre", "opera", "ballet", "classical", "family", "children",
+         "exhibition", "performance", "digital art")
 
-def datepart(x):
- if not x:return None
- m=re.match(r'\d{4}-\d{2}-\d{2}',str(x));return m.group(0) if m else None
 
-def textval(x):return re.sub(r'<[^>]*>','',html.unescape(str(x or ''))).strip()
+def datepart(value):
+    match = re.match(r"^\d{4}-\d{2}-\d{2}", str(value or ""))
+    return match.group() if match else None
 
-def parse_event(e,venue):
- title=textval(e.get('name'));start=datepart(e.get('startDate'));end=datepart(e.get('endDate')) or start
- url=e.get('url');url=url.get('@id') if isinstance(url,dict) else url
- if not title or not start or not isinstance(url,str) or not url.startswith('https://'):return None
- if end<datetime.date.today().isoformat():return None
- desc=textval(e.get('description'))[:220];low=(title+' '+desc).lower()
- category='family' if any(w in low for w in ('family','children','kids')) else 'performance' if any(w in low for w in ('theatre','opera','ballet','concert','performance','music')) else 'art'
- img=None # no automatic third-party image reuse without permissions
- return dict(title=title,venue=venue,category=category,family_friendly=category=='family',start_date=start,end_date=end,opening_hours='',verified_time=False,description=desc,url=url,image_url=img,score=55+min(35,sum(8 for w in KEYWORDS if w in low)))
+
+def flatten_events(value):
+    if isinstance(value, list):
+        for item in value:
+            yield from flatten_events(item)
+    elif isinstance(value, dict):
+        types = value.get("@type", [])
+        types = [types] if isinstance(types, str) else types
+        if EVENT_TYPES.intersection(types):
+            yield value
+        for key in ("@graph", "event", "subEvent"):
+            if key in value:
+                yield from flatten_events(value[key])
+
+
+def clean_text(value):
+    return re.sub(r"<[^>]*>", "", html.unescape(str(value or ""))).strip()
+
+
+def parse_event(event, venue, today, cutoff):
+    title = clean_text(event.get("name"))
+    start = datepart(event.get("startDate"))
+    end = datepart(event.get("endDate")) or start
+    url = event.get("url")
+    if isinstance(url, dict):
+        url = url.get("@id")
+    if not title or not start or not isinstance(url, str):
+        return None
+    if not url.startswith("https://") or end < today or start > cutoff:
+        return None
+    description = clean_text(event.get("description"))[:220]
+    terms = (title + " " + description).lower()
+    family = any(word in terms for word in ("family", "children", "kids"))
+    category = ("family" if family else "performance" if any(
+        word in terms for word in ("theatre", "opera", "ballet", "concert", "performance", "music")
+    ) else "art")
+    return {
+        "title": title, "venue": venue, "category": category,
+        "family_friendly": family, "start_date": start, "end_date": end,
+        "opening_hours": "", "verified_time": False, "description": description,
+        "url": url, "image_url": None,
+        "score": 55 + min(35, sum(8 for word in WORDS if word in terms)),
+    }
+
+
+def extract_html_events(page, venue, today, cutoff):
+    # Content on each source's listing page may contain no individual Event
+    # objects. This is not an error or a signal that the venue has no events.
+    blocks = re.findall(
+        r'<script\b[^>]*type\s*=\s*["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+        page, re.I | re.S,
+    )
+    events = []
+    for block in blocks:
+        try:
+            value = json.loads(block)
+        except (ValueError, TypeError):
+            continue
+        for obj in flatten_events(value):
+            record = parse_event(obj, venue, today, cutoff)
+            if record:
+                events.append(record)
+    return events
+
 
 def main():
- now=datetime.datetime.now(ZoneInfo('Europe/London'));cutoff=(now.date()+datetime.timedelta(days=7)).isoformat();out=[];errors=[]
- for venue,url in SOURCES:
-  try:
-   req=urllib.request.Request(url,headers={'User-Agent':'LondonCultureRadar/0.1 (+personal cultural discovery; respectful requests)'})
-   with urllib.request.urlopen(req,timeout=15) as r: page=r.read(2_000_000).decode('utf-8','replace')
-   blocks=re.findall(r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',page,re.I|re.S)
-   for block in blocks:
-    try: objs=list(extract_objects(json.loads(block)))
-    except (ValueError,TypeError):continue
-    for e in objs:
-     rec=parse_event(e,venue)
-     if rec and rec['start_date']<=cutoff:out.append(rec)
-  except Exception as ex:errors.append(f'{venue}: {type(ex).__name__}: {ex}')
- seen=set();unique=[]
- for e in out:
-  k=(e['title'].casefold(),e['venue'],e['start_date'])
-  if k not in seen:seen.add(k);unique.append(e)
- # Keep previous results when all sources fail; never overwrite with empty data silently.
- if not unique:
-  old=json.loads((ROOT/'events.json').read_text())
-  if old.get('events'):
-   print('No fresh records. Keeping prior dataset. Errors:',errors)
-   raise SystemExit(1)
- data={'updated_at':now.isoformat(timespec='minutes'),'events':unique,'source_errors':errors,'sources_checked':len(SOURCES)}
- (ROOT/'events.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
- print(f'Collected {len(unique)} events; {len(errors)} source errors')
- if errors:print('\n'.join(errors))
- if not unique:raise SystemExit('No events extracted; pipeline needs source-specific adapters. Do not publish as populated.')
-if __name__=='__main__':main()
+    now = datetime.datetime.now(ZoneInfo("Europe/London"))
+    today = now.date().isoformat()
+    cutoff = (now.date() + datetime.timedelta(days=7)).isoformat()
+    prior_path = ROOT / "events.json"
+    previous = json.loads(prior_path.read_text(encoding="utf-8")) if prior_path.exists() else {}
+    records, failures, checked = [], [], 0
+    for venue, url in SOURCES:
+        try:
+            request = urllib.request.Request(url, headers={
+                "User-Agent": "LondonCultureRadar/0.2 (personal event indexing)"
+            })
+            with urllib.request.urlopen(request, timeout=12) as response:
+                page = response.read(2_000_000).decode("utf-8", "replace")
+            checked += 1
+            records.extend(extract_html_events(page, venue, today, cutoff))
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError) as error:
+            failures.append(f"{venue}: {type(error).__name__}: {error}")
+    by_key = {}
+    for record in records:
+        key = (record["venue"].casefold(), record["title"].casefold(), record["start_date"])
+        by_key[key] = record
+
+    # Retain previously documented events only while their dates are still valid;
+    # do not mark stale records as freshly verified.
+    for record in previous.get("events", []):
+        if not isinstance(record, dict):
+            continue
+        if record.get("end_date", record.get("start_date", "")) < today:
+            continue
+        if record.get("start_date", "") > cutoff:
+            continue
+        key = (str(record.get("venue", "")).casefold(),
+               str(record.get("title", "")).casefold(),
+               record.get("start_date"))
+        if key not in by_key:
+            retained = dict(record)
+            retained["verified_time"] = False
+            by_key[key] = retained
+
+    if not by_key:
+        print("No trustworthy events extracted; retaining existing published dataset.")
+        print(f"Sources accessible: {checked}/{len(SOURCES)}; source errors: {len(failures)}")
+        for message in failures:
+            print(message)
+        raise SystemExit(
+            "No events available. Source-specific permitted feeds/adapters are required."
+        )
+
+    data = {
+        "updated_at": now.isoformat(timespec="minutes"),
+        "events": list(by_key.values()),
+        "source_errors": failures,
+        "sources_checked": len(SOURCES),
+    }
+    prior_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Saved {len(by_key)} sourced events; {len(failures)} source errors")
+
+
+if __name__ == "__main__":
+    main()
