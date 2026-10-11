@@ -171,6 +171,13 @@ def main():
             records.extend(extract_html_events(load_url(url).decode("utf-8", "replace"), venue, today, cutoff))
         except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError) as error:
             failures.append(f"Official event {venue}: {type(error).__name__}: {error}")
+    if not records:
+        print("No fresh event records could be independently verified.")
+        print(f"Checked {len(SOURCES)} listing URLs and {len(visited)} RSS leads.")
+        for message in failures[:20]:
+            print(message)
+        raise SystemExit("No new verified events: previously published data remains unchanged.")
+
     by_key = {}
     for record in records:
         key = (record["venue"].casefold(), record["title"].casefold(), record["start_date"])
