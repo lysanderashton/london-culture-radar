@@ -315,6 +315,27 @@ def parse_date_calendar(markup, calendar_date, page_url):
     return items
 
 
+def listing_image(markup, source_url):
+    soup=BeautifulSoup(markup,"html.parser")
+    for selector,attr in [
+        ('meta[property="og:image"]',"content"),
+        ('meta[name="twitter:image"]',"content"),
+        ('meta[property="twitter:image"]',"content"),
+        ('article img',"src"),
+    ]:
+        for node in soup.select(selector):
+            value=node.get(attr) or node.get("data-src") or ""
+            if not value:
+                continue
+            value=urllib.parse.urljoin(source_url,value)
+            p=urllib.parse.urlsplit(value)
+            if p.scheme=="https" and p.netloc and not any(
+                phrase in p.path.lower() for phrase in ("logo","favicon","avatar","placeholder")
+            ):
+                return value
+    return None
+
+
 def run(today=None, http_fetch=None, prior=None):
     http_fetch=http_fetch or fetch
     now=dt.datetime.now(ZoneInfo("Europe/London"))
@@ -403,6 +424,26 @@ def run(today=None, http_fetch=None, prior=None):
                 old["end_date"]=max(old["end_date"],record["end_date"])
                 continue
         combined[k]=record
+    # Image enrichment for editorial calendar records. Fetch individual
+    # event entries only, not arbitrary external image-search results.
+    calendar_records=[r for r in combined.values()
+        if r.get("source_type")=="date_calendar:IanVisits" and not r.get("image_url")]
+    calendar_records.sort(key=lambda e:(-int(e.get("score") or 0),e.get("title","")))
+    to_enrich=calendar_records[:100]
+    def lookup(record):
+        url=record["url"]
+        try:
+            payload=http_fetch(url)
+            return record,listing_image(payload.decode("utf-8","replace"),url)
+        except (urllib.error.HTTPError,urllib.error.URLError,OSError,ValueError,
+                TimeoutError,http.client.IncompleteRead):
+            return record,None
+    with ThreadPoolExecutor(max_workers=12) as pool:
+        for record,img in pool.map(lookup,to_enrich):
+            if img:
+                record["image_url"]=img
+                record["image_credit"]="Image from IanVisits event listing"
+
     fresh=len(combined)
     for old in previous.get("events",[]):
         if not isinstance(old,dict):
