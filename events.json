@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T22:05+01:00",
+  "updated_at": "2026-10-12T22:08+01:00",
   "events": [
     {
       "title": "Frieze London 2026",
@@ -270,19 +270,19 @@
       "source_checked_at": "2026-10-12"
     }
   ],
-  "sources_checked": 83,
+  "sources_checked": 91,
   "fresh_events": 4,
   "editorial_leads_checked": 60,
   "source_errors": [
     "official Southbank Centre: HTTPError: HTTP Error 403: Forbidden",
     "official National Theatre: HTTPError: HTTP Error 403: Forbidden",
     "official British Museum: HTTPError: HTTP Error 403: Forbidden",
-    "official Hayward Gallery: HTTPError: HTTP Error 403: Forbidden",
     "official Young Vic: HTTPError: HTTP Error 403: Forbidden",
-    "official Wigmore Hall: HTTPError: HTTP Error 403: Forbidden",
+    "official Hayward Gallery: HTTPError: HTTP Error 403: Forbidden",
     "official ICA: HTTPError: HTTP Error 404: Not Found",
-    "editorial RSS https://www.culturerss.org/london/design_museum.xml: HTTPError: HTTP Error 404: Not Found",
-    "editorial RSS https://www.culturerss.org/london/va_museum.xml: HTTPError: HTTP Error 404: Not Found"
+    "official Wigmore Hall: HTTPError: HTTP Error 403: Forbidden",
+    "editorial RSS https://www.culturerss.org/london/va_museum.xml: HTTPError: HTTP Error 404: Not Found",
+    "editorial RSS https://www.culturerss.org/london/design_museum.xml: HTTPError: HTTP Error 404: Not Found"
   ],
   "notice": "Daily discovery: 4 source-dated events found across official, structured and editorial sources. Times and tickets are not always confirmed; check event links."
 }
