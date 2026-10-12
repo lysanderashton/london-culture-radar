@@ -250,21 +250,21 @@ def parse_date_calendar(markup, calendar_date, page_url):
     opening hours or ticket availability. This is not an official venue feed.
     """
     soup=BeautifulSoup(markup,"html.parser")
-    heading=soup.get_text(" ",strip=True)[:600].lower()
+    heading=soup.get_text(" ",strip=True)[:12000].lower()
     if "exhibitions open on" not in heading and "exhibitions open today" not in heading:
         return []
     items=[]
     seen=set()
-    for header in soup.find_all(["h3","h4"]):
+    for header in soup.find_all(["h2","h3","h4","h5"]):
         title=header.get_text(" ",strip=True)
         if len(title)<5 or len(title)>135 or title.casefold() in seen:
             continue
         # Select the smallest parent covering a clearly labelled exhibition
         # closing date, without sweeping up the whole page.
         root=None
-        for parent in list(header.parents)[:6]:
+        for parent in list(header.parents)[:9]:
             txt=parent.get_text(" ",strip=True)
-            if len(txt)>1600:
+            if len(txt)>2600:
                 break
             if "Exhibition ends on" in txt and len(txt)>len(title)+15:
                 root=parent
@@ -272,7 +272,7 @@ def parse_date_calendar(markup, calendar_date, page_url):
         if root is None:
             continue
         txt=root.get_text(" ",strip=True)
-        if len(txt)>1000:
+        if len(txt)>2200:
             continue
         # Exclude navigation and article headings; require a real event link.
         a=header.find("a",href=True) or root.find("a",href=True)
@@ -306,6 +306,12 @@ def parse_date_calendar(markup, calendar_date, page_url):
             record["score"]=max(record["score"],58)
             seen.add(title.casefold())
             items.append(record)
+    if not items and calendar_date.endswith("-13"):
+        examples=[(h.get_text(" ",strip=True)[:65],
+                   [p.get_text(" ",strip=True)[:160] for p in list(h.parents)[:3]])
+                  for h in soup.find_all(["h2","h3","h4","h5"])[:6]]
+        print("Calendar diagnostic",calendar_date,"heading_ok",
+              "exhibitions open on" in heading,"sample",examples)
     return items
 
 
