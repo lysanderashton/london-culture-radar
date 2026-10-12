@@ -8,6 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from bs4 import BeautifulSoup
 import datetime as dt
 import html
+import http.client
 import json
 import re
 import urllib.error
@@ -321,7 +322,7 @@ def run(today=None, http_fetch=None, prior=None):
             payload=http_fetch(url)
             fetched+=1
             return payload
-        except (urllib.error.HTTPError,urllib.error.URLError,OSError,ValueError,TimeoutError) as exc:
+        except (urllib.error.HTTPError,urllib.error.URLError,OSError,ValueError,TimeoutError,http.client.IncompleteRead) as exc:
             failures.append(f"{label}: {type(exc).__name__}: {exc}")
             return None
 
