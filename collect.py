@@ -5,6 +5,7 @@ and culture/news RSS leads. News publication dates are NEVER treated as event da
 Only events with explicit event dates enter the dated dashboard.
 """
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from bs4 import BeautifulSoup
 import datetime as dt
 import html
 import json
@@ -241,6 +242,72 @@ def key(record):
             re.sub(r"\W+","",record["venue"].casefold()),
             record["start_date"])
 
+def parse_date_calendar(markup, calendar_date, page_url):
+    """Extract exhibition tiles from IanVisits date-specific open-exhibitions calendar.
+
+    The page states exhibitions are open on calendar_date, but does not establish
+    opening hours or ticket availability. This is not an official venue feed.
+    """
+    soup=BeautifulSoup(markup,"html.parser")
+    heading=soup.get_text(" ",strip=True)[:600].lower()
+    if "exhibitions open on" not in heading and "exhibitions open today" not in heading:
+        return []
+    items=[]
+    seen=set()
+    for header in soup.find_all(["h3","h4"]):
+        title=header.get_text(" ",strip=True)
+        if len(title)<5 or len(title)>135 or title.casefold() in seen:
+            continue
+        # Select the smallest parent covering a clearly labelled exhibition
+        # closing date, without sweeping up the whole page.
+        root=None
+        for parent in list(header.parents)[:6]:
+            txt=parent.get_text(" ",strip=True)
+            if len(txt)>1600:
+                break
+            if "Exhibition ends on" in txt and len(txt)>len(title)+15:
+                root=parent
+                break
+        if root is None:
+            continue
+        txt=root.get_text(" ",strip=True)
+        if len(txt)>1000:
+            continue
+        # Exclude navigation and article headings; require a real event link.
+        a=header.find("a",href=True) or root.find("a",href=True)
+        if not a:
+            continue
+        url=urllib.parse.urljoin(page_url,a["href"])
+        if urllib.parse.urlsplit(url).hostname not in ("www.ianvisits.co.uk","ianvisits.co.uk"):
+            continue
+        # IanVisits confirms date-level listing, not venue operating hours.
+        # Closing date is optional extra evidence, not used to infer a daily schedule.
+        venue="London exhibition — see listing"
+        location=root.select_one(".venue, .location, [class*=venue], [class*=location]")
+        if location:
+            possible=location.get_text(" ",strip=True)
+            if 3<len(possible)<140:
+                venue=possible
+        image=root.find("img")
+        image=image.get("data-src") or image.get("src") if image else None
+        if image:
+            image=urllib.parse.urljoin(page_url,image)
+        desc=txt.replace(title,"",1)
+        desc=re.split("Exhibition ends on",desc)[0].replace("Read more ›","").strip()[:210]
+        if not desc:
+            desc="Exhibition listed as open on this date by IanVisits."
+        record=new_record(title,venue,calendar_date,calendar_date,url,desc,
+            image,source="date_calendar:IanVisits",verified_time=False)
+        if record:
+            record["schedule_uncertain"]=False
+            record["calendar_dates"]=[calendar_date]
+            record["date_evidence_url"]=page_url
+            record["score"]=max(record["score"],58)
+            seen.add(title.casefold())
+            items.append(record)
+    return items
+
+
 def run(today=None, http_fetch=None, prior=None):
     http_fetch=http_fetch or fetch
     now=dt.datetime.now(ZoneInfo("Europe/London"))
@@ -269,13 +336,18 @@ def run(today=None, http_fetch=None, prior=None):
                     results.append((name,url,payload))
         return results
 
+    calendar_days=[(dt.date.fromisoformat(today)+dt.timedelta(days=n)).isoformat() for n in range(8)]
+    calendar_urls=[(day, f"https://www.ianvisits.co.uk/calendar/date/{day.replace('-', '/')}/exhibitions") for day in calendar_days]
     first = [(name,url,"official "+name) for name,url in VENUE_PAGES]
     first += [(name,url,"structured "+name) for name,url in STRUCTURED_FEEDS]
     first += [("rss",url,"editorial RSS "+url) for url in NEWS_RSS]
+    first += [("calendar:"+day,url,"date calendar "+day) for day,url in calendar_urls]
     fetched_items=batch(first)
     leads=[]
     for name,url,payload in fetched_items:
-        if name=="rss":
+        if name.startswith("calendar:"):
+            records.extend(parse_date_calendar(payload.decode("utf-8","replace"),name.split(":",1)[1],url))
+        elif name=="rss":
             try:
                 leads.extend(extract_rss_leads(payload,url))
             except ET.ParseError as exc:
@@ -311,7 +383,19 @@ def run(today=None, http_fetch=None, prior=None):
 
     combined={}
     for record in records:
-        combined[key(record)]=record
+        k=key(record)
+        if record.get("calendar_dates"):
+            # Join date-specific evidence without claiming that any
+            # unlisted intervening day is confirmed open.
+            k=("daily_calendar",re.sub(r"\W+","",record["title"].casefold()),
+               re.sub(r"\W+","",record["venue"].casefold()))
+            if k in combined:
+                old=combined[k]
+                old["calendar_dates"]=sorted(set(old["calendar_dates"]+record["calendar_dates"]))
+                old["start_date"]=min(old["start_date"],record["start_date"])
+                old["end_date"]=max(old["end_date"],record["end_date"])
+                continue
+        combined[k]=record
     fresh=len(combined)
     for old in previous.get("events",[]):
         if not isinstance(old,dict):
@@ -320,10 +404,17 @@ def run(today=None, http_fetch=None, prior=None):
         if end<today:
             continue
         k=key(old)
+        if old.get('calendar_dates'):
+            retained_days=[day for day in old['calendar_dates'] if today<=day<=horizon]
+            if not retained_days:
+                continue
+            k=('daily_calendar',re.sub(r'\W+','',old['title'].casefold()),re.sub(r'\W+','',old['venue'].casefold()))
         if k not in combined:
             rec=dict(old)
             rec["verified_time"]=False
             rec["schedule_uncertain"]=True
+            if rec.get("calendar_dates"):
+                rec["calendar_dates"]=retained_days
             combined[k]=rec
 
     if not fresh:
