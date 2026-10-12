@@ -4,6 +4,7 @@ Sources: official venue event JSON-LD, independent structured London event feeds
 and culture/news RSS leads. News publication dates are NEVER treated as event dates.
 Only events with explicit event dates enter the dated dashboard.
 """
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import datetime as dt
 import html
 import json
@@ -257,43 +258,52 @@ def run(today=None, http_fetch=None, prior=None):
             failures.append(f"{label}: {type(exc).__name__}: {exc}")
             return None
 
-    for name,url in VENUE_PAGES:
-        payload=attempt(url,"official "+name)
-        if payload:
-            records.extend(parse_jsonld(payload.decode("utf-8","replace"),name,today,horizon,url))
+    def batch(work, limit=10):
+        results=[]
+        with ThreadPoolExecutor(max_workers=limit) as pool:
+            futures={pool.submit(attempt,url,label):(name,url) for name,url,label in work}
+            for future in as_completed(futures):
+                name,url=futures[future]
+                payload=future.result()
+                if payload:
+                    results.append((name,url,payload))
+        return results
 
-    for name,url in STRUCTURED_FEEDS:
-        payload=attempt(url,"structured "+name)
-        if payload:
+    first = [(name,url,"official "+name) for name,url in VENUE_PAGES]
+    first += [(name,url,"structured "+name) for name,url in STRUCTURED_FEEDS]
+    first += [("rss",url,"editorial RSS "+url) for url in NEWS_RSS]
+    fetched_items=batch(first)
+    leads=[]
+    for name,url,payload in fetched_items:
+        if name=="rss":
+            try:
+                leads.extend(extract_rss_leads(payload,url))
+            except ET.ParseError as exc:
+                failures.append(f"editorial RSS {url}: {exc}")
+        elif name in {n for n,_ in STRUCTURED_FEEDS}:
             try:
                 records.extend(parse_structured_feed(json.loads(payload),name,today,horizon))
             except (ValueError,TypeError) as exc:
                 failures.append(f"structured {name}: invalid JSON: {exc}")
+        else:
+            records.extend(parse_jsonld(payload.decode("utf-8","replace"),name,today,horizon,url))
 
-    leads=[]
-    for url in NEWS_RSS:
-        payload=attempt(url,"editorial RSS "+url)
-        if payload:
-            try:
-                leads+=extract_rss_leads(payload,url)
-            except ET.ParseError as exc:
-                failures.append(f"editorial RSS {url}: {exc}")
-    # News and editorial URLs are leads only. Event dates need event-specific markup.
-    seen_leads=set()
+    lead_work=[]
+    lead_seen=set()
     for source,url,title,desc in leads:
-        if url in seen_leads:
+        if url in lead_seen:
             continue
-        seen_leads.add(url)
+        lead_seen.add(url)
         _,_,phrase=classify(title,desc)
         if not any(word in phrase for word in KEYWORDS):
             continue
-        if lead_count>=70:
+        if len(lead_work)>=60:
             break
-        lead_count+=1
-        payload=attempt(url,"editorial lead "+source)
-        if payload:
-            records.extend(parse_jsonld(payload.decode("utf-8","replace"),
-                "London venue — see listing",today,horizon,url))
+        lead_work.append((source,url,"editorial lead "+source))
+    lead_count=len(lead_work)
+    for source,url,payload in batch(lead_work):
+        records.extend(parse_jsonld(payload.decode("utf-8","replace"),
+             "London venue — see listing",today,horizon,url))
 
     combined={}
     for record in records:
