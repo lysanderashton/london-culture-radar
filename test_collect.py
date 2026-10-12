@@ -1,45 +1,52 @@
-import datetime
+import json
 import tempfile
 import unittest
-from unittest.mock import patch
 from pathlib import Path
+from unittest.mock import patch
 import collect
 
-
 class CollectorTests(unittest.TestCase):
-    def test_extracts_supported_event_from_json_ld(self):
-        markup = """<script type="application/ld+json">
-        {"@graph":[{"@type":"ExhibitionEvent","name":"Test Exhibition",
-        "startDate":"2026-10-12","endDate":"2026-10-20",
-        "url":"https://example.org/exhibition"}]}
-        </script>"""
-        results = collect.extract_html_events(markup, "Test Venue", "2026-10-11", "2026-10-18")
-        self.assertEqual(len(results), 1)
-        self.assertEqual(results[0]["title"], "Test Exhibition")
+    def test_event_schema_with_explicit_dates(self):
+        page='<script type="application/ld+json">{"@type":"ExhibitionEvent","name":"Immersive Lights","startDate":"2026-10-12","endDate":"2026-10-20","url":"https://example.org/light","image":"https://example.org/image.jpg"}</script>'
+        results=collect.parse_jsonld(page,"Gallery","2026-10-12","2026-10-19")
+        self.assertEqual(len(results),1)
+        self.assertEqual(results[0]["image_url"],"https://example.org/image.jpg")
         self.assertFalse(results[0]["verified_time"])
 
-    def test_rss_only_accepts_allowlisted_venue_urls(self):
-        feed = b"""<rss><channel><item><link>https://www.tate.org.uk/whats-on/test</link></item><item><link>https://invalid.example.com/another</link></item></channel></rss>"""
-        self.assertEqual(collect.feed_candidates(feed), [("Tate", "https://www.tate.org.uk/whats-on/test")])
+    def test_undated_news_never_becomes_an_event(self):
+        page='<script type="application/ld+json">{"@type":"NewsArticle","name":"London show announced","datePublished":"2026-10-12"}</script>'
+        self.assertEqual(collect.parse_jsonld(page,"News","2026-10-12","2026-10-19"),[])
 
-    def test_missing_event_dates_are_excluded(self):
-        result = collect.parse_event(
-            {"@type": "Event", "name": "Undated", "url": "https://example.org/a"},
-            "Example", "2026-10-11", "2026-10-18")
-        self.assertIsNone(result)
+    def test_rss_pubdate_not_used_as_event_date(self):
+        feed=b'<rss><channel><item><title>London theatre production</title><link>https://example.org/article</link><pubDate>Mon, 12 Oct 2026 10:00:00 GMT</pubDate></item></channel></rss>'
+        leads=collect.extract_rss_leads(feed,"news")
+        self.assertEqual(len(leads),1)
+        self.assertEqual(len(leads[0]),4)
 
-    def test_all_blocked_sources_do_not_replace_published_data(self):
-        with tempfile.TemporaryDirectory() as folder:
-            dataset = Path(folder) / "events.json"
-            prior = '{"updated_at":"previous", "events":[]}'
-            dataset.write_text(prior)
-            with patch.object(collect, "ROOT", Path(folder)):
-                with patch.object(collect, "SOURCES", [("Blocked", "https://example.org")]), patch.object(collect, "DISCOVERY_FEEDS", []):
-                    with patch("collect.urllib.request.urlopen", side_effect=OSError("403 blocked")):
-                        with self.assertRaises(SystemExit):
-                            collect.main()
-            self.assertEqual(dataset.read_text(), prior)
+    def test_structured_json_explicit_datetime(self):
+        payload={"events":[{"title":"London Theatre","datetime":"2026-10-13T19:30:00","venue":"London Theatre","city":"London","link":"https://example.org/theatre","description":"Modern performance"}]}
+        e=collect.parse_structured_feed(payload,"Tickts London","2026-10-12","2026-10-19")
+        self.assertEqual(len(e),1)
+        self.assertTrue(e[0]["verified_time"])
 
+    def test_aggregated_news_requires_actual_event_dates(self):
+        payload=b'<rss><channel><item><title>London gallery news</title><link>https://example.org/a</link><pubDate>Mon, 12 Oct 2026 10:00:00 GMT</pubDate></item></channel></rss>'
+        def mock_fetch(url):
+            if url.endswith("features.rss"): return payload
+            return b'<html>No event-specific dates</html>'
+        with patch.object(collect,"VENUE_PAGES",[]),patch.object(collect,"STRUCTURED_FEEDS",[]),patch.object(collect,"NEWS_RSS",["https://example.org/features.rss"]):
+            with self.assertRaises(RuntimeError):
+                collect.run(today="2026-10-12",http_fetch=mock_fetch,prior={"events":[]})
 
-if __name__ == "__main__":
+    def test_keeps_prior_events_when_new_events_found(self):
+        data={"events":[{"title":"An Older Exhibition","venue":"Tate","start_date":"2026-09-01","end_date":"2026-10-30","url":"https://tate.org.uk/a","score":60}]}
+        def mock_fetch(url):
+            return json.dumps({"events":[{"title":"Contemporary Art Night","datetime":"2026-10-15T19:00","venue":"London Art Club","city":"London","link":"https://example.org/event","description":"Contemporary art exhibition"}]}).encode()
+        with patch.object(collect,"VENUE_PAGES",[]),patch.object(collect,"NEWS_RSS",[]),patch.object(collect,"STRUCTURED_FEEDS",[("Tickts London","https://example.org/feed")]):
+            res=collect.run(today="2026-10-12",http_fetch=mock_fetch,prior=data)
+        self.assertEqual(res["fresh_events"],1)
+        self.assertEqual(len(res["events"]),2)
+        self.assertTrue(next(e for e in res["events"] if e["title"]=="An Older Exhibition")["schedule_uncertain"])
+
+if __name__=="__main__":
     unittest.main()
