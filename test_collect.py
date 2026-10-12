@@ -23,6 +23,20 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(len(leads),1)
         self.assertEqual(len(leads[0]),4)
 
+    def test_date_specific_calendar_marks_only_that_day(self):
+        html = """<html><head><title>London exhibitions open on Tuesday 13th October 2026</title></head><body>
+        <h1>London exhibitions open on Tuesday 13th October 2026</h1>
+        <div class="exhibition"><h3><a href="/exhibitions/test-show">Anish Kapoor</a></h3>
+        <p>A contemporary sculpture exhibition at the Hayward Gallery.</p>
+        <p>Exhibition ends on Sunday 18th Oct</p>
+        <p>Hayward Gallery, Southwark</p></div></body></html>"""
+        results = collect.parse_date_calendar(html, "2026-10-13", "https://www.ianvisits.co.uk/calendar/date/2026/10/13/exhibitions")
+        self.assertEqual(len(results),1)
+        self.assertEqual(results[0]["title"],"Anish Kapoor")
+        self.assertEqual(results[0]["calendar_dates"],["2026-10-13"])
+        self.assertFalse(results[0]["verified_time"])
+        self.assertFalse(results[0]["schedule_uncertain"])
+
     def test_structured_json_explicit_datetime(self):
         payload={"events":[{"title":"London Theatre","datetime":"2026-10-13T19:30:00","venue":"London Theatre","city":"London","link":"https://example.org/theatre","description":"Modern performance"}]}
         e=collect.parse_structured_feed(payload,"Tickts London","2026-10-12","2026-10-19")
