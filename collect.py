@@ -297,6 +297,10 @@ def run(today=None, http_fetch=None, prior=None):
         _,_,phrase=classify(title,desc)
         if not any(word in phrase for word in KEYWORDS):
             continue
+        # General arts press covers the world; restrict their leads to
+        # articles explicitly mentioning London before fetching them.
+        if ("theguardian.com" in source or "artrabbit.com" in source) and "london" not in phrase:
+            continue
         if len(lead_work)>=60:
             break
         lead_work.append((source,url,"editorial lead "+source))
