@@ -1,5 +1,8 @@
 name: Refresh events
 on:
+  push:
+    branches: [main]
+    paths: ['collect.py']
   schedule:
     - cron: '25 6 * * *'
   workflow_dispatch:
