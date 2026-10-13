@@ -39,3 +39,6 @@ jobs:
           Path('/tmp/radar.js').write_text(parser.js)
           PY
           node --check /tmp/radar.js
+          node --check ranking.js
+      - name: Editorial ranking tests
+        run: node --test ranking.test.js
