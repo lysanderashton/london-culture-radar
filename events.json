@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T14:45+00:00",
+  "updated_at": "2026-11-23T18:32+00:00",
   "events": [
     {
       "title": "The 90s: Art and Fashion",
@@ -57,7 +57,7 @@
       "price": null,
       "score": 73,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-25"
       ],
@@ -69,8 +69,8 @@
       "venue": "Design Museum, Kensington",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -80,18 +80,18 @@
       "price": null,
       "score": 73,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -100,7 +100,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-23",
-      "end_date": "2026-11-27",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -110,15 +110,16 @@
       "price": null,
       "score": 73,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
-        "2026-11-27"
+        "2026-11-27",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -127,7 +128,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-23",
-      "end_date": "2026-11-27",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -137,15 +138,16 @@
       "price": null,
       "score": 66,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
-        "2026-11-27"
+        "2026-11-27",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -153,8 +155,8 @@
       "venue": "Imperial War Museum, Southwark",
       "category": "family",
       "family_friendly": true,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -164,18 +166,18 @@
       "price": null,
       "score": 66,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -194,14 +196,14 @@
       "price": null,
       "score": 66,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -209,7 +211,7 @@
       "venue": "William Morris Gallery, Walthamstow",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-24",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -220,9 +222,8 @@
       "price": null,
       "score": 66,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
@@ -230,7 +231,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -249,14 +250,14 @@
       "price": null,
       "score": 66,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -264,8 +265,8 @@
       "venue": "RAF Museum, Colindale",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -275,18 +276,18 @@
       "price": null,
       "score": 66,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -295,7 +296,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-23",
-      "end_date": "2026-11-28",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -305,16 +306,17 @@
       "price": null,
       "score": 66,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
-        "2026-11-28"
+        "2026-11-28",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -322,8 +324,8 @@
       "venue": "British Museum, Russell Square",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -333,18 +335,18 @@
       "price": null,
       "score": 66,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -352,7 +354,7 @@
       "venue": "London exhibition — see listing",
       "category": "performance",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-26",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -363,15 +365,14 @@
       "price": null,
       "score": 66,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -379,7 +380,7 @@
       "venue": "Royal Academy of Arts, Picadilly",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-24",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -390,9 +391,8 @@
       "price": null,
       "score": 66,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
@@ -400,7 +400,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -408,8 +408,8 @@
       "venue": "Courtauld Institute of Art, Strand",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -419,18 +419,18 @@
       "price": null,
       "score": 66,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -438,7 +438,7 @@
       "venue": "The Postal Museum, Farringdon",
       "category": "family",
       "family_friendly": true,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-24",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -449,9 +449,8 @@
       "price": null,
       "score": 66,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
@@ -459,7 +458,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -478,13 +477,13 @@
       "price": null,
       "score": 66,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-24",
         "2026-11-25",
         "2026-11-26"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -492,7 +491,7 @@
       "venue": "Barbican Arts Centre, Barbican",
       "category": "performance",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-24",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -503,9 +502,8 @@
       "price": null,
       "score": 66,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
@@ -513,7 +511,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -532,7 +530,7 @@
       "price": null,
       "score": 66,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-24",
         "2026-11-25",
@@ -540,7 +538,7 @@
         "2026-11-27",
         "2026-11-28"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -559,7 +557,7 @@
       "price": null,
       "score": 66,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-24",
         "2026-11-25",
@@ -567,7 +565,7 @@
         "2026-11-27",
         "2026-11-28"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -575,8 +573,8 @@
       "venue": "Guildhall Art Gallery and Roman Amphitheatre, City of London",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -586,18 +584,18 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -606,7 +604,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-23",
-      "end_date": "2026-11-28",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -616,16 +614,17 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
-        "2026-11-28"
+        "2026-11-28",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -633,8 +632,8 @@
       "venue": "London exhibition — see listing",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -644,18 +643,18 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -663,8 +662,8 @@
       "venue": "Tate Modern, Southwark",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -674,18 +673,18 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -693,8 +692,8 @@
       "venue": "Guildhall Art Gallery and Roman Amphitheatre, City of London",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -704,18 +703,18 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -734,7 +733,7 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-24",
         "2026-11-25",
@@ -742,7 +741,7 @@
         "2026-11-27",
         "2026-11-28"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -750,8 +749,8 @@
       "venue": "Victoria and Albert (V&A) Museum, South Kensington",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -761,18 +760,18 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -781,7 +780,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-26",
-      "end_date": "2026-11-29",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -791,14 +790,15 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -817,13 +817,13 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-26",
         "2026-11-27",
         "2026-11-28"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -842,7 +842,7 @@
       "price": null,
       "score": 59,
       "source_type": "structured_feed:Tickts London",
-      "source_checked_at": "2026-11-22"
+      "source_checked_at": "2026-11-23"
     },
     {
       "title": "Herbarium | Plants in a New Light",
@@ -860,14 +860,14 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -875,7 +875,7 @@
       "venue": "Somerset House, Strand",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-24",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -886,9 +886,8 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
@@ -896,30 +895,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
-      "image_credit": "Image from IanVisits event listing"
-    },
-    {
-      "title": "K2 Artistic Expeditions: James Hart Dyke",
-      "venue": "London exhibition — see listing",
-      "category": "art",
-      "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-22",
-      "opening_hours": "",
-      "verified_time": false,
-      "schedule_uncertain": false,
-      "description": "An exhibition of recent paintings and drawings from British artist James Hart Dyke’s gruelling 2025 journey through Pakistan’s Karakoram mountains to paint the daunting K2.",
-      "url": "https://www.ianvisits.co.uk/calendar/k2-artistic-expeditions-james-hart-dyke-435420/",
-      "image_url": "https://8400e186.delivery.rocketcdn.me/calendar/wp-content/uploads/sites/5/2026/10/Screenshot-2026-10-05-at-08-42-32-4.2.jpeg.png",
-      "price": null,
-      "score": 59,
-      "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
-      "calendar_dates": [
-        "2026-11-22"
-      ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -927,7 +903,7 @@
       "venue": "The Last Tuesday Society & Viktor Wynd Museum, Hackney",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-24",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -938,9 +914,8 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
@@ -948,7 +923,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -957,7 +932,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-23",
-      "end_date": "2026-11-27",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -967,15 +942,16 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
-        "2026-11-27"
+        "2026-11-27",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -983,8 +959,8 @@
       "venue": "Tate Modern, Southwark",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -994,18 +970,18 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1014,7 +990,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-23",
-      "end_date": "2026-11-28",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -1024,16 +1000,17 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
-        "2026-11-28"
+        "2026-11-28",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1041,8 +1018,8 @@
       "venue": "Wallace Collection, Marylebone High St",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -1052,18 +1029,18 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1072,7 +1049,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-26",
-      "end_date": "2026-11-28",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -1082,13 +1059,14 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-26",
         "2026-11-27",
-        "2026-11-28"
+        "2026-11-28",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1107,14 +1085,14 @@
       "price": null,
       "score": 59,
       "source_type": "structured_feed:Tickts London",
-      "source_checked_at": "2026-11-22"
+      "source_checked_at": "2026-11-23"
     },
     {
       "title": "Painting the French Riviera",
       "venue": "Royal Academy of Arts, Picadilly",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-24",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -1125,9 +1103,8 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
@@ -1135,7 +1112,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1154,7 +1131,7 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-25",
         "2026-11-26",
@@ -1162,7 +1139,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1181,7 +1158,7 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-24",
         "2026-11-25",
@@ -1189,7 +1166,7 @@
         "2026-11-27",
         "2026-11-28"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1197,8 +1174,8 @@
       "venue": "Victoria and Albert (V&A) Museum, South Kensington",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -1208,18 +1185,18 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1228,7 +1205,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-26",
-      "end_date": "2026-11-29",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -1238,33 +1215,16 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
       "image_credit": "Image from IanVisits event listing"
-    },
-    {
-      "title": "St Ceciliatide Concert, Fizz Reception and Buffet Lunch",
-      "venue": "Stationers' Hall",
-      "category": "performance",
-      "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-22",
-      "opening_hours": "",
-      "verified_time": false,
-      "schedule_uncertain": true,
-      "description": "This year’s St Ceciliatide Festival is focused on this one concert, and we are delighted to welcome a return visit from the outstanding Britten Sinfonia Chamber Soloists who are presenting a typically entertaining and inspiring programme, d",
-      "url": "https://tickts.co.uk/events/st-ceciliatide-concert-fizz-reception-and-buffet-lunch",
-      "image_url": "https://tickts.co.uk/storage/events/YuedjJ97dldWZL5xJFPDiSF3uUUV4ncLqi0qj1XN.jpg",
-      "price": null,
-      "score": 59,
-      "source_type": "structured_feed:Tickts London",
-      "source_checked_at": "2026-11-21"
     },
     {
       "title": "Swaying in the Wind - Frédérick Yvan Manuel Gay: A Contemporary French Fan Maker",
@@ -1282,7 +1242,7 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-24",
         "2026-11-25",
@@ -1290,7 +1250,7 @@
         "2026-11-27",
         "2026-11-28"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1309,13 +1269,13 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-25",
         "2026-11-26",
         "2026-11-27"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1323,7 +1283,7 @@
       "venue": "Wellcome Collection, Camden",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-24",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -1334,9 +1294,8 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
@@ -1344,7 +1303,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1363,7 +1322,7 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-24",
         "2026-11-25",
@@ -1371,7 +1330,7 @@
         "2026-11-27",
         "2026-11-28"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1379,8 +1338,8 @@
       "venue": "Somerset House, Strand",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -1390,18 +1349,18 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1409,7 +1368,7 @@
       "venue": "Quentin Blake Centre for Illustration, Clerkenwell",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-25",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -1420,16 +1379,15 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1437,8 +1395,8 @@
       "venue": "Victoria and Albert (V&A) Museum, South Kensington",
       "category": "performance",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -1448,18 +1406,18 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1467,8 +1425,8 @@
       "venue": "National Gallery, Trafalgar Square",
       "category": "performance",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -1478,18 +1436,18 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1497,7 +1455,7 @@
       "venue": "Estorick Collection of Modern Italian Art, Islington",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-25",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -1508,16 +1466,45 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
+      "image_credit": "Image from IanVisits event listing"
+    },
+    {
+      "title": "Wildlife Photographer of the Year",
+      "venue": "Natural History Museum, South Kensington",
+      "category": "art",
+      "family_friendly": false,
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
+      "opening_hours": "",
+      "verified_time": false,
+      "schedule_uncertain": false,
+      "description": "Wildlife Photographer of the Year is an internationally acclaimed exhibition, celebrating the very best in nature photography.",
+      "url": "https://www.ianvisits.co.uk/calendar/wildlife-photographer-of-the-year-4-436936/",
+      "image_url": "https://8400e186.delivery.rocketcdn.me/calendar/wp-content/uploads/sites/4/2024/02/natural-history-museum.jpg",
+      "price": null,
+      "score": 59,
+      "source_type": "date_calendar:IanVisits",
+      "source_checked_at": "2026-11-23",
+      "calendar_dates": [
+        "2026-11-23",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28",
+        "2026-11-29",
+        "2026-11-30"
+      ],
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1525,8 +1512,8 @@
       "venue": "National Gallery, Trafalgar Square",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -1536,18 +1523,18 @@
       "price": null,
       "score": 59,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1566,13 +1553,13 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-24",
         "2026-11-25",
         "2026-11-26"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1581,7 +1568,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-23",
-      "end_date": "2026-11-28",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -1591,39 +1578,17 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
-        "2026-11-28"
+        "2026-11-28",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
-      "image_credit": "Image from IanVisits event listing"
-    },
-    {
-      "title": "Adama Jalloh: Process (2014 - Ongoing)",
-      "venue": "Saatchi Gallery, Chelsea",
-      "category": "art",
-      "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-22",
-      "opening_hours": "",
-      "verified_time": false,
-      "schedule_uncertain": false,
-      "description": "Adama Jalloh is a London-based documentary and portrait photographer whose practice explores identity, community and belonging.",
-      "url": "https://www.ianvisits.co.uk/calendar/adama-jalloh-process-2014-ongoing-436271/",
-      "image_url": "https://8400e186.delivery.rocketcdn.me/_images/maps/venues/2054.jpeg",
-      "price": null,
-      "score": 58,
-      "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
-      "calendar_dates": [
-        "2026-11-22"
-      ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1642,7 +1607,7 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-23",
         "2026-11-24",
@@ -1650,7 +1615,7 @@
         "2026-11-26",
         "2026-11-27"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1658,8 +1623,8 @@
       "venue": "British Library, Camden",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -1669,18 +1634,18 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1699,7 +1664,7 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-24",
         "2026-11-25",
@@ -1708,7 +1673,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1716,7 +1681,7 @@
       "venue": "London Mithraeum, City of London",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-24",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -1727,9 +1692,8 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
@@ -1737,7 +1701,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1745,8 +1709,8 @@
       "venue": "Science Museum, South Kensington",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -1756,18 +1720,18 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1775,8 +1739,8 @@
       "venue": "Saatchi Gallery, Chelsea",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -1786,18 +1750,18 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1806,7 +1770,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-23",
-      "end_date": "2026-11-27",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -1816,15 +1780,16 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
-        "2026-11-27"
+        "2026-11-27",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1832,7 +1797,7 @@
       "venue": "Dulwich Picture Gallery, Dulwich",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-24",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -1843,9 +1808,8 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
@@ -1853,7 +1817,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1861,8 +1825,8 @@
       "venue": "Kew Botanic Gardens, Richmond",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-24",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -1872,16 +1836,16 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1890,7 +1854,7 @@
       "category": "performance",
       "family_friendly": false,
       "start_date": "2026-11-23",
-      "end_date": "2026-11-28",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -1900,13 +1864,14 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-23",
         "2026-11-27",
-        "2026-11-28"
+        "2026-11-28",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1914,7 +1879,7 @@
       "venue": "British Museum, Russell Square",
       "category": "performance",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-23",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -1925,9 +1890,8 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
@@ -1936,7 +1900,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1944,8 +1908,8 @@
       "venue": "Victoria and Albert (V&A) Museum, South Kensington",
       "category": "performance",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -1955,18 +1919,18 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -1974,7 +1938,7 @@
       "venue": "Charles Dickens Museum, Clerkenwell",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-25",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -1985,16 +1949,15 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2002,7 +1965,7 @@
       "venue": "National Army Museum, Chelsea",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-24",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -2013,9 +1976,8 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
@@ -2023,7 +1985,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2031,8 +1993,8 @@
       "venue": "London exhibition — see listing",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2042,18 +2004,18 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2061,8 +2023,8 @@
       "venue": "Design Museum, Kensington",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2072,18 +2034,18 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2102,13 +2064,13 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-26",
         "2026-11-27",
         "2026-11-28"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2116,7 +2078,7 @@
       "venue": "Quentin Blake Centre for Illustration, Clerkenwell",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-25",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -2127,16 +2089,15 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2144,8 +2105,8 @@
       "venue": "Victoria and Albert (V&A) Museum, South Kensington",
       "category": "performance",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2155,18 +2116,18 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2174,8 +2135,8 @@
       "venue": "Tate Modern, Southwark",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2185,18 +2146,18 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2205,7 +2166,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-28",
-      "end_date": "2026-11-29",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2215,12 +2176,13 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/28/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/30/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2239,7 +2201,7 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-24",
         "2026-11-25",
@@ -2247,7 +2209,7 @@
         "2026-11-27",
         "2026-11-28"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2255,7 +2217,7 @@
       "venue": "Gunnersbury Park and Museum, Ealing",
       "category": "performance",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-24",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -2266,9 +2228,8 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
@@ -2276,7 +2237,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2284,8 +2245,8 @@
       "venue": "Kew Botanic Gardens, Richmond",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2295,18 +2256,18 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2314,7 +2275,7 @@
       "venue": "Dulwich Picture Gallery, Dulwich",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-24",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -2325,9 +2286,8 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
@@ -2335,7 +2295,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2343,8 +2303,8 @@
       "venue": "London exhibition — see listing",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2354,18 +2314,18 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2373,8 +2333,8 @@
       "venue": "Tate Modern, Southwark",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2384,18 +2344,48 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
+      "image_credit": "Image from IanVisits event listing"
+    },
+    {
+      "title": "Jurassic Oceans: Monsters of the Deep",
+      "venue": "Natural History Museum, South Kensington",
+      "category": "art",
+      "family_friendly": false,
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
+      "opening_hours": "",
+      "verified_time": false,
+      "schedule_uncertain": false,
+      "description": "Embark on an electrifying adventure through ancient waters teeming with real-life sea monsters from ichthyosaurs, plesiosaurs and the terrifying T. rexes of the sea, the mosasaurs.",
+      "url": "https://www.ianvisits.co.uk/calendar/jurassic-oceans-monsters-of-the-deep-429127/",
+      "image_url": "https://8400e186.delivery.rocketcdn.me/calendar/wp-content/uploads/sites/5/2026/03/JO-banner-desktop-hero.jpg",
+      "price": null,
+      "score": 58,
+      "source_type": "date_calendar:IanVisits",
+      "source_checked_at": "2026-11-23",
+      "calendar_dates": [
+        "2026-11-23",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28",
+        "2026-11-29",
+        "2026-11-30"
+      ],
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2403,8 +2393,8 @@
       "venue": "London exhibition — see listing",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2414,18 +2404,18 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2434,7 +2424,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-23",
-      "end_date": "2026-11-27",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2444,15 +2434,16 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
-        "2026-11-27"
+        "2026-11-27",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2471,7 +2462,7 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-24",
         "2026-11-25",
@@ -2479,7 +2470,7 @@
         "2026-11-27",
         "2026-11-28"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2487,8 +2478,8 @@
       "venue": "Design Museum, Kensington",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2498,18 +2489,18 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2517,7 +2508,7 @@
       "venue": "London exhibition — see listing",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-25",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -2528,16 +2519,15 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2545,7 +2535,7 @@
       "venue": "Camden Arts Centre, Hampstead",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-25",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -2556,16 +2546,15 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2574,7 +2563,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-23",
-      "end_date": "2026-11-26",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2584,14 +2573,15 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
-        "2026-11-26"
+        "2026-11-26",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2599,8 +2589,8 @@
       "venue": "Victoria and Albert (V&A) Museum, South Kensington",
       "category": "performance",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2610,18 +2600,18 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2629,7 +2619,7 @@
       "venue": "Osterley Park and House, Isleworth",
       "category": "performance",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-25",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -2640,16 +2630,15 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2657,8 +2646,8 @@
       "venue": "Victoria and Albert (V&A) Museum, South Kensington",
       "category": "performance",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2668,18 +2657,18 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2687,7 +2676,7 @@
       "venue": "Sir John Soane's Museum, Holborn",
       "category": "performance",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-25",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -2698,16 +2687,15 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2715,8 +2703,8 @@
       "venue": "British Museum, Russell Square",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2726,18 +2714,18 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2756,7 +2744,7 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-24",
         "2026-11-25",
@@ -2765,7 +2753,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2784,7 +2772,7 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-24",
         "2026-11-25",
@@ -2792,7 +2780,7 @@
         "2026-11-27",
         "2026-11-28"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2811,13 +2799,13 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-24",
         "2026-11-25",
         "2026-11-26"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2836,7 +2824,7 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-24",
         "2026-11-25",
@@ -2844,7 +2832,7 @@
         "2026-11-27",
         "2026-11-28"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2853,7 +2841,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-23",
-      "end_date": "2026-11-27",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2863,15 +2851,16 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
-        "2026-11-27"
+        "2026-11-27",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2880,7 +2869,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-23",
-      "end_date": "2026-11-28",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2890,16 +2879,17 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
-        "2026-11-28"
+        "2026-11-28",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions",
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions",
       "image_credit": "Image from IanVisits event listing"
     },
     {
@@ -2907,8 +2897,8 @@
       "venue": "HMS Belfast, Southwark",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2918,48 +2908,26 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
-    },
-    {
-      "title": "Propstore's Film & TV Exhibition",
-      "venue": "London exhibition — see listing",
-      "category": "art",
-      "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-22",
-      "opening_hours": "",
-      "verified_time": false,
-      "schedule_uncertain": false,
-      "description": "Discover over 100 iconic pieces of film, TV and animation history, with Propstore at London's Cumberland Hotel.",
-      "url": "https://www.ianvisits.co.uk/calendar/propstores-film-tv-exhibition-436566/",
-      "image_url": null,
-      "price": null,
-      "score": 58,
-      "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
-      "calendar_dates": [
-        "2026-11-22"
-      ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "Queen Elizabeth II: Her Life in Style",
       "venue": "The King's Gallery, Whitehall",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -2969,25 +2937,25 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "Quentin Blake: Performance",
       "venue": "Quentin Blake Centre for Illustration, Clerkenwell",
       "category": "performance",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-25",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -2998,16 +2966,15 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions"
     },
     {
       "title": "R. B. Kitaj: From Fragments 1958–1975",
@@ -3021,11 +2988,11 @@
       "schedule_uncertain": false,
       "description": "With paintings, drawings and collages, this exhibition explores the unexpected ways that Kitaj combined source imagery in the early years of his career.",
       "url": "https://www.ianvisits.co.uk/calendar/r-b-kitaj-from-fragments-1958-1975-435051/",
-      "image_url": null,
+      "image_url": "https://8400e186.delivery.rocketcdn.me/calendar/wp-content/uploads/sites/5/2026/09/Outlook-lqnhpb0k-150x150.jpg",
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-23",
         "2026-11-24",
@@ -3033,15 +3000,15 @@
         "2026-11-26",
         "2026-11-27"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "Renoir and Love",
       "venue": "National Gallery, Trafalgar Square",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -3051,25 +3018,25 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "Robert Ryman: The Real Thing",
       "venue": "Barbican Arts Centre, Barbican",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-24",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -3080,9 +3047,8 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
@@ -3090,15 +3056,15 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions"
     },
     {
       "title": "Sacred Treasures from Kyiv",
       "venue": "Victoria and Albert (V&A) Museum, South Kensington",
       "category": "performance",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -3108,26 +3074,26 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "Stolen! Theft in the archives",
       "venue": "London School of Economics and Political Science (LSE), Holborn",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -3137,18 +3103,18 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "Susan Stockwell | Make-do and Mend",
@@ -3166,22 +3132,22 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions"
     },
     {
       "title": "Tarek Atoui",
       "venue": "Tate Modern, Southwark",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -3191,25 +3157,25 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "Tenderness and Rage",
       "venue": "Wellcome Collection, Camden",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-24",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -3220,9 +3186,8 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
@@ -3230,7 +3195,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions"
     },
     {
       "title": "The 544: A photographic memorial",
@@ -3248,22 +3213,22 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions"
     },
     {
       "title": "The 90s: Art and Fashion",
       "venue": "Tate Britain, Pimlico",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -3273,26 +3238,26 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "The Bayeux Tapestry",
       "venue": "British Museum, Russell Square",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -3302,26 +3267,26 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "The Burberry Trench: Crafting an Icon",
       "venue": "Victoria and Albert (V&A) Museum, South Kensington",
       "category": "performance",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -3331,25 +3296,25 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "The Genie and Other Stories",
       "venue": "Heath Robinson Museum, Pinner",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-26",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -3360,23 +3325,22 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions"
     },
     {
       "title": "The Music Is Black: A British Story",
       "venue": "V&A East Museum, Olympic Park",
       "category": "performance",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -3386,26 +3350,26 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "Tim Walker's Fairyland: Love and Legends",
       "venue": "National Portrait Gallery, Soho",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -3415,25 +3379,25 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "Tino Stefanoni: Between Vision and Memory",
       "venue": "Estorick Collection of Modern Italian Art, Islington",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-25",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -3444,24 +3408,23 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions"
     },
     {
       "title": "Tradition/Rebellion",
       "venue": "Japan House London, Kensington",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -3471,18 +3434,18 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "Two Centuries Here: The UCL200 exhibition",
@@ -3490,7 +3453,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-23",
-      "end_date": "2026-11-27",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -3500,23 +3463,24 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
-        "2026-11-27"
+        "2026-11-27",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "Vanessa Bell & Duncan Grant: Inside Bloomsbury",
       "venue": "Tate Britain, Pimlico",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -3526,18 +3490,47 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
+    },
+    {
+      "title": "Visions of Nature: A mixed reality experience",
+      "venue": "Natural History Museum, South Kensington",
+      "category": "art",
+      "family_friendly": false,
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
+      "opening_hours": "",
+      "verified_time": false,
+      "schedule_uncertain": false,
+      "description": "Discover how our decisions today can influence the natural world a hundred years from now in this interactive, mixed-reality experience.",
+      "url": "https://www.ianvisits.co.uk/calendar/visions-of-nature-a-mixed-reality-experience-436938/",
+      "image_url": null,
+      "price": null,
+      "score": 58,
+      "source_type": "date_calendar:IanVisits",
+      "source_checked_at": "2026-11-23",
+      "calendar_dates": [
+        "2026-11-23",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28",
+        "2026-11-29",
+        "2026-11-30"
+      ],
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "WOMEN AT WORK, Sarah Ainslie’s East End Portraits 1992-2025",
@@ -3545,7 +3538,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-23",
-      "end_date": "2026-11-28",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -3555,16 +3548,17 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
-        "2026-11-28"
+        "2026-11-28",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "We Go Way Back",
@@ -3582,21 +3576,21 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/26/exhibitions"
     },
     {
       "title": "Where We Grow: nature, nurture & childhood",
       "venue": "Foundling Museum, Clerkenwell",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-24",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -3607,9 +3601,8 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
@@ -3617,15 +3610,15 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions"
     },
     {
       "title": "Winifred Gill: A Bloomsbury Pioneer",
       "venue": "Courtauld Institute of Art, Strand",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-29",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -3635,38 +3628,37 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "Winston Churchill: The Painter",
       "venue": "Wallace Collection, Marylebone High St",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-23",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
       "description": "The first major retrospective of Sir Winston Churchill’s paintings since his death, this exhibition brings together more than 50 of his works.",
       "url": "https://www.ianvisits.co.uk/calendar/winston-churchill-the-painter-429906/",
-      "image_url": null,
+      "image_url": "https://8400e186.delivery.rocketcdn.me/calendar/wp-content/uploads/sites/5/2026/04/Winston-Churchill-wallace-collection-04-150x150.jpg",
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
@@ -3675,7 +3667,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "Winter Light",
@@ -3683,7 +3675,7 @@
       "category": "performance",
       "family_friendly": false,
       "start_date": "2026-11-24",
-      "end_date": "2026-11-29",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -3693,23 +3685,24 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions"
     },
     {
       "title": "Winter Past 2026",
       "venue": "Museum of the Home, Bethnal Green",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
+      "start_date": "2026-11-24",
       "end_date": "2026-11-29",
       "opening_hours": "",
       "verified_time": false,
@@ -3720,9 +3713,8 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
-        "2026-11-22",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
@@ -3730,7 +3722,7 @@
         "2026-11-28",
         "2026-11-29"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/22/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/24/exhibitions"
     },
     {
       "title": "Éire in the East End",
@@ -3738,7 +3730,7 @@
       "category": "art",
       "family_friendly": false,
       "start_date": "2026-11-23",
-      "end_date": "2026-11-27",
+      "end_date": "2026-11-30",
       "opening_hours": "",
       "verified_time": false,
       "schedule_uncertain": false,
@@ -3748,15 +3740,16 @@
       "price": null,
       "score": 58,
       "source_type": "date_calendar:IanVisits",
-      "source_checked_at": "2026-11-22",
+      "source_checked_at": "2026-11-23",
       "calendar_dates": [
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
         "2026-11-26",
-        "2026-11-27"
+        "2026-11-27",
+        "2026-11-30"
       ],
-      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/27/exhibitions"
+      "date_evidence_url": "https://www.ianvisits.co.uk/calendar/date/2026/11/23/exhibitions"
     },
     {
       "title": "Acting Classes for LGBTQIA+ People",
@@ -3774,7 +3767,7 @@
       "price": null,
       "score": 52,
       "source_type": "structured_feed:Tickts London",
-      "source_checked_at": "2026-11-22"
+      "source_checked_at": "2026-11-23"
     },
     {
       "title": "The Breakout Club - Mon 23rd November 2026 | Free Live Music & DJs",
@@ -3792,7 +3785,7 @@
       "price": null,
       "score": 52,
       "source_type": "structured_feed:Tickts London",
-      "source_checked_at": "2026-11-22"
+      "source_checked_at": "2026-11-23"
     },
     {
       "title": "Tribe n Vibe x Powered by Resonance",
@@ -3810,15 +3803,15 @@
       "price": null,
       "score": 52,
       "source_type": "structured_feed:Tickts London",
-      "source_checked_at": "2026-11-22"
+      "source_checked_at": "2026-11-23"
     },
     {
       "title": "Waldorf Project Chapter Five/KAIHOGYO",
       "venue": "London (N1)",
       "category": "art",
       "family_friendly": false,
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-22",
+      "start_date": "2026-11-24",
+      "end_date": "2026-11-24",
       "opening_hours": "",
       "verified_time": true,
       "schedule_uncertain": false,
@@ -3828,22 +3821,22 @@
       "price": null,
       "score": 52,
       "source_type": "structured_feed:Tickts London",
-      "source_checked_at": "2026-11-22"
+      "source_checked_at": "2026-11-23"
     }
   ],
   "sources_checked": 90,
   "fresh_events": 137,
   "editorial_leads_checked": 60,
   "source_errors": [
-    "official Southbank Centre: HTTPError: HTTP Error 403: Forbidden",
-    "official Young Vic: HTTPError: HTTP Error 403: Forbidden",
     "official National Theatre: HTTPError: HTTP Error 403: Forbidden",
+    "official Southbank Centre: HTTPError: HTTP Error 403: Forbidden",
     "official British Museum: HTTPError: HTTP Error 403: Forbidden",
+    "official Young Vic: HTTPError: HTTP Error 403: Forbidden",
     "official Hayward Gallery: HTTPError: HTTP Error 403: Forbidden",
     "official ICA: HTTPError: HTTP Error 404: Not Found",
     "official Wigmore Hall: HTTPError: HTTP Error 403: Forbidden",
-    "editorial RSS https://www.culturerss.org/london/va_museum.xml: HTTPError: HTTP Error 403: Forbidden",
     "editorial RSS https://www.culturerss.org/london/design_museum.xml: HTTPError: HTTP Error 403: Forbidden",
+    "editorial RSS https://www.culturerss.org/london/va_museum.xml: HTTPError: HTTP Error 403: Forbidden",
     "editorial lead https://www.culturerss.org/london/barbican_events.xml: HTTPError: HTTP Error 404: Not Found"
   ],
   "notice": "Daily discovery: 137 source-dated events found across official, structured and editorial sources. Times and tickets are not always confirmed; check event links."
